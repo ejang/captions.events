@@ -77,14 +77,22 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 ## Deployment
 
-Deploy to Vercel:
+### Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/elevenlabs/captions.events)
+
+For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md).
+
+**Quick steps:**
 
 1. Import repo at [vercel.com](https://vercel.com)
-2. Add environment variables
+2. Add environment variables (see `.env.example`)
 3. Update GitHub OAuth callback URL for production
+4. Update `NEXT_PUBLIC_SITE_URL` with your deployed URL
 
 ## Documentation
 
+- [DEPLOYMENT.md](./DEPLOYMENT.md) - 웹 배포 가이드 (Deployment guide)
 - [SCRIBE_SETUP.md](./SCRIBE_SETUP.md) - ElevenLabs configuration
 - [GITHUB_AUTH_SETUP.md](./GITHUB_AUTH_SETUP.md) - OAuth setup
 - [TRANSLATION_FEATURE.md](./TRANSLATION_FEATURE.md) - Translation details
